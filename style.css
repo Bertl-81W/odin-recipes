@@ -1,0 +1,31 @@
+body {
+    min-height: 100vh;
+    /*background-color: rgb(rgb(82, 74, 74)); */
+    background-image: url('./images/OdinsRaven.png');
+    background-size: contain;    /* Makes the image cover the whole background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 55px;
+    color: rgb(97, 97, 219);
+    text-align: right;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    margin-right: 65px;
+}
+ul {
+    font-size: 30px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+li {
+    padding: 20px 0;
+    text-decoration: none;
+}
+.odin-raven-pic {
+    height: 150px;
+    width: 100px;    
+}

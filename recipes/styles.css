@@ -1,0 +1,44 @@
+body {
+    background-color: #8c7a7a;
+    min-height: 100vh;   
+}
+h1 {    
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;      
+    font-size: 55px;
+    color: rgb(97, 97, 219);
+    text-shadow: 0 0 5px rgba(35, 34, 34, 0.8);
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    margin-right: 65px;
+}
+.recipe-links {
+    color: rgb(171, 66, 66); 
+}
+ul {
+    font-size: 30px;     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li {
+    padding: 20px 0;
+    text-decoration: none;
+}
+.raven-img {
+    height: 400px;
+    width: 300px;     
+}
+.main-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.recipe-imgs {
+    height: 400px;
+    width: 450px; 
+    border: 3px solid rgb(171, 66, 66);    
+}
